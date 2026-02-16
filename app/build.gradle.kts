@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.run.android.application)
     alias(libs.plugins.run.android.application.compose)
+    alias(libs.plugins.run.jvm.ktor)
 }
 
 android {

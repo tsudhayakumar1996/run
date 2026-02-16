@@ -127,6 +127,9 @@ run-android-application-compose = { id = "run.android.application.compose", vers
 run-android-library = { id = "run.android.library", version = "unspecified" }
 run-android-library-compose = { id = "run.android.library.compose", version = "unspecified" }
 run-android-feature-ui = { id = "run.android.feature.ui", version = "unspecified" }
+run-android-room = { id = "run.android.room", version = "unspecified" }
+run-jvm-library = { id = "run.jvm.library", version = "unspecified" }
+run-jvm-ktor = { id = "run.jvm.ktor", version = "unspecified" }
 
 [bundles]
 compose = [
@@ -144,4 +147,11 @@ compose-debug = [
 ]
 koin = ["koin-core", "koin-android", "koin-android-workmanager"]
 koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
+ktor = [
+    "ktor-client-auth",
+    "ktor-client-cio",
+    "ktor-client-content-negotiation",
+    "ktor-client-core",
+    "ktor-client-logging"
+]
 
